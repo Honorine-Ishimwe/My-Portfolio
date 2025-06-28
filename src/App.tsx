@@ -1,0 +1,78 @@
+import React from "react";
+import { Routes, Route } from 'react-router-dom';
+import NavBar from "./components/navBar";
+import MyResume from "./components/myResume";
+import Projects from "./components/myProjects";
+import HeroLanding from "./components/heroLanding";
+import Skills from "./components/skills";
+import Contact from './contact'; 
+import Name from "./components/name";
+import './floatingBackground.css';
+
+function HomePage() {
+  return (
+    
+    <div className=" p-5 m-5 text light">
+       <div className="floating-bg">
+        <div className="orb orb1"></div>
+        <div className="orb orb2"></div>
+        <div className="orb orb3"></div>
+      </div>
+      <section>
+        <div className="m-5">
+        <Name 
+          names="Honorine Ishimwe Twahirwa"
+          intro="I am a tech enthusiast"
+        />
+        </div>
+      </section>
+      <section id="hero">
+        <HeroLanding 
+          imageUrl="/Headshot.jpg"
+          altText="Hero image of Honorine Ishimwe"
+          description="Ambitious and results-driven Computer Science student with hands-on experience..."
+        />
+      </section>
+
+      <section id="projects">
+        <Projects 
+          imageUrl='/spotify_logo.png'
+          name='SpotMood'
+          description='A Spotify mood-based music recommendation app that uses the Spotify API...'
+        />
+        <Projects
+          imageUrl="/pet_pic.jpeg"
+          name="Pet Adoption App"
+          description="Designed and implemented a responsive, full-stack web platform for pet adoption..."
+        />
+      </section>
+
+      <section id="skills">
+        <Skills
+          skills={["JavaScript", "React", "Node.js", "Python", "HTML", "CSS", "SQL", "Git", "RESTful APIs", "Agile Methodologies"]}
+        />
+      </section>
+
+      <section id="resume">
+        <MyResume
+          resumeUrl="/Users/icespice/Desktop/Honorine/Personal documents/Honorine_Ishimwe_Resume.pdf"
+        />
+      </section>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <>
+      <NavBar /> 
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<div>About Page Coming Soon</div>} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </>
+  );
+}
+
+export default App;
