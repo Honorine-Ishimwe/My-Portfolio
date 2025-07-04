@@ -11,26 +11,26 @@ import './floatingBackground.css';
 
 function HomePage() {
   return (
-    
-    <div className=" p-5 m-5 text light">
-       <div className="floating-bg">
+    <div className="big-padding big-margin text light">
+      <div className="floating-bg">
         <div className="orb orb1"></div>
         <div className="orb orb2"></div>
         <div className="orb orb3"></div>
       </div>
       <section>
         <div className="m-5">
-        <Name 
-          names="Honorine Ishimwe Twahirwa"
-          intro="I am a tech enthusiast"
-        />
+          <Name 
+            names="Honorine Ishimwe Twahirwa"
+            intro="I am a tech enthusiast"
+          />
         </div>
       </section>
+
       <section id="hero">
         <HeroLanding 
           imageUrl="/Headshot.jpg"
           altText="Hero image of Honorine Ishimwe"
-          description="Ambitious and results-driven Computer Science student with hands-on experience..."
+          description="Ambitious and results-driven Computer Science student with hands-on experience in software development, academic projects, and web technologies. Skilled in both technical and client-facing roles through prior experience in customer support, administration, and healthcare. Strong communication, adaptability, and attention to detail, with a passion for learning and using technologies to solve real-world problems."
         />
       </section>
 

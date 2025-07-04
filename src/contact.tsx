@@ -3,9 +3,8 @@ import './floatingBackground.css';
 
 export default function Contact() {
   return (
-    
     <main className="container py-5">
-        <div className="floating-bg">
+      <div className="floating-bg">
         <div className="orb orb1"></div>
         <div className="orb orb2"></div>
         <div className="orb orb3"></div>
@@ -25,7 +24,7 @@ export default function Contact() {
 
         {/* Right: Contact Info */}
         <div className="col-md-7">
-          <p><strong>Email:</strong> your.email@example.com</p>
+          <p><strong>Email:</strong> honorine.ishimwe20@gmail.com</p>
           <p>
             <strong>LinkedIn:</strong>{' '}
             <a
