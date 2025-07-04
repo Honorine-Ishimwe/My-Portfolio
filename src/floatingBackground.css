@@ -93,6 +93,14 @@
     top: 80%;
     left: 30%;
   }
+
+  .big-margin {
+    margin: 8rem;
+  }
+  
+  .big-padding {
+    padding: 10rem;
+  }
   
   @keyframes float {
     0% {
