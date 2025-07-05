@@ -49,7 +49,26 @@ function HomePage() {
 
       <section id="skills">
         <Skills
-          skills={["JavaScript", "React", "Node.js", "Python", "HTML", "CSS", "SQL", "Git", "RESTful APIs", "Agile Methodologies"]}
+          skillsClasses={[
+            "devicon-react-original",
+            "devicon-javascript-plain",
+            "devicon-python-plain",
+            "devicon-html5-plain",
+            "devicon-css3-plain",
+            "devicon-bootstrap-plain",
+            "devicon-nodejs-plain",
+            "devicon-express-original",
+            "devicon-mongodb-plain",
+            "devicon-git-plain",
+            "devicon-github-original",
+            "devicon-java-plain-wordmark",
+            "devicon-csharp-plain",
+            "devicon-tailwindcss-original colored",
+            "devicon-linux-plain",
+            "devicon-unix-original",
+            "devicon-typescript-plain",
+            "devicon-numpy-plain"
+          ]}
         />
       </section>
 

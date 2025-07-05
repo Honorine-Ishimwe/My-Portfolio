@@ -102,6 +102,18 @@
     padding: 10rem;
   }
   
+  .skill-icon {
+    font-size: 4rem; 
+    margin: 1rem;     
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 2rem;
+    justify-content: center; 
+  }
+
   @keyframes float {
     0% {
       transform: translateY(0px) translateX(0px);

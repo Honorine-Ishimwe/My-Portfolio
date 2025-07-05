@@ -1,20 +1,18 @@
 import React from "react";
 
 type skillsProps = {
-  skills: string[];
+  skillsClasses: string[];
 };
 
-export default function Skills({ skills }: skillsProps) {
+export default function Skills({ skillsClasses }: skillsProps) {
   return (
     <div className="skills-container p-4">
       <h2 className="text-2xl font-bold mb-4">Skills</h2>
-      <ul className="list-disc pl-5">
-        {skills.map((skill, index) => (
-          <li key={index} className="text-lg mb-2">
-            {skill}
-          </li>
+      <div className="skills-grid">
+        {skillsClasses.map((skillClass, index) => (
+          <i key={index} className={`${skillClass} skill-icon`}></i>
         ))}
-      </ul>
+      </div>
     </div>
   );
 }
