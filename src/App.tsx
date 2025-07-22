@@ -21,7 +21,7 @@ function HomePage() {
         <div className="m-5">
           <Name 
             names="Honorine Ishimwe Twahirwa"
-            intro="I am a tech enthusiast"
+            intro="I am a tech enthusiast!"
           />
         </div>
       </section>
@@ -30,7 +30,7 @@ function HomePage() {
         <HeroLanding 
           imageUrl="/Headshot.jpg"
           altText="Hero image of Honorine Ishimwe"
-          description="Ambitious and results-driven Computer Science student with hands-on experience in software development, academic projects, and web technologies. Skilled in both technical and client-facing roles through prior experience in customer support, administration, and healthcare. Strong communication, adaptability, and attention to detail, with a passion for learning and using technologies to solve real-world problems."
+          description="Driven and adaptable third-year Computer Science student with hands-on experience in software development, full-stack web technologies, and academic projects. Passionate about applying AI and machine learning to real-world problems, with a strong interest in building intelligent, user-focused applications. Proven ability to thrive in both technical and client-facing roles through experience in customer support, administration, and healthcare. Fast learner with strong communication skills, attention to detail, and a commitment to continuous growth in emerging technologies"
         />
       </section>
 
@@ -67,7 +67,9 @@ function HomePage() {
             "devicon-linux-plain",
             "devicon-unix-original",
             "devicon-typescript-plain",
-            "devicon-numpy-plain"
+            "devicon-numpy-plain",
+            "devicon-angular-plain",
+            "devicon-azure-plain"
           ]}
         />
       </section>

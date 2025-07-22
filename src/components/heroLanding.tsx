@@ -21,7 +21,14 @@ export default function HeroSection({
             src={imageUrl}
             alt={altText}
             className="img-fluid rounded"
-            style={{ maxHeight: '400px', objectFit: 'cover' }}
+            style={{
+              height: '500px',
+              width: 'auto',
+              maxWidth: '100%',
+              objectFit: 'cover',
+              display: 'block',
+              margin: '0 auto',
+            }}
           />
         </div>
 
